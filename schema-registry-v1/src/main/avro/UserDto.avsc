@@ -1,0 +1,17 @@
+{
+  "namespace": "com.ocean.confluent.schemaregistry.avro.dto",
+  "type": "record",
+  "name": "UserDto",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "the first name of a person"
+    },
+    {
+      "name": "age",
+      "type": "int",
+      "doc": "the last name of a person"
+    }
+  ]
+}

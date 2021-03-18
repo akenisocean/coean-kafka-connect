@@ -1,0 +1,13 @@
+server:
+  port: 9000
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: group_id
+      auto-offset-reset: earliest
+  application:
+    name: ocean-schema-registry
+schema:
+  registry:
+    url: http://localhost:8081
